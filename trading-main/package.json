@@ -1,0 +1,35 @@
+{
+  "name": "5010-backtest",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "start": "vite preview",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^7.1.0",
+    "@mui/material": "^5.15.10",
+    "@mui/x-date-pickers": "^8.3.0",
+    "@reduxjs/toolkit": "^2.1.0",
+    "date-fns": "^4.1.0",
+    "isbot": "^5.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.22.1",
+    "recharts": "^2.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react": "^4.2.1",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.3"
+  }
+}
